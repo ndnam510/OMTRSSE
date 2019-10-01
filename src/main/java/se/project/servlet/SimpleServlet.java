@@ -14,7 +14,7 @@ public class SimpleServlet extends HttpServlet {
         throws ServletException, IOException{
         PrintWriter out = response.getWriter();
         response.setContentType("text/html");
-        out.println("Hello this is the first web page");
+        out.println("Hello this is the first web page edit by nam");
 
     }
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
